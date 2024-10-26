@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Click</title>
+</head>
+
+<body>
+    <div class="html">
+        <h1 id="html">HTML</h1>
+        <button onclick="change1()">Change Text HTML</button>
+    </div>
+
+    <div class="css">
+        <h1 id="css">CSS</h1>
+        <button onclick="change2()">Change Text CSS</button>
+    </div>
+
+    <div class="js">
+        <h1 id="js">Java-Script</h1>
+        <button onclick="change3()">Change Text Java-Script</button>
+    </div>
+
+
+    <script>
+        function change1(){
+            var html1 = document.getElementById("html")
+            html1.innerHTML="HTML CLICKED";
+            alert("clicked")
+        }
+        function change2(){
+            var html1 = document.getElementById("css")
+            html1.innerHTML="CSS CLICKED";
+            alert("clicked")
+        }
+        function change3(){
+            var html1 = document.getElementById("js")
+            html1.innerHTML="Java-Script CLICKED";
+            alert("clicked")
+        }
+
+    </script>
+
+</body>
+
+</html>
